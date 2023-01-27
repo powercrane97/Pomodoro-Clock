@@ -1,0 +1,69 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.project-header {
+  font-size: 3rem;
+}
+
+.labels {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.label-title {
+  display: block;
+}
+
+.time-length {
+  display: inline-block;
+  margin: 0 10px; /* make responsive */
+}
+
+#reset {
+  margin-left: 10px;
+}
+
+button {
+  font-size: inherit;
+  box-shadow: 0 3px rgb(142, 75, 75);
+  border: none;
+  border-radius: 0.25rem;
+}
+
+button:active {
+  transform: translateY(3px);
+  box-shadow: none;
+}
+
+#time-left {
+  font-size: 5rem;
+}
+
+.timer {
+  margin-top: 1.3rem;
+}
+
+#timer-label {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.control {
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: white;
+}
